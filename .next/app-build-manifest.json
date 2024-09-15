@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/(trelloboards)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/page.js"
+    ],
+    "/(trelloboards)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(auth)/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/login/page.js"
+    ],
+    "/(trelloboards)/organizations/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/organizations/page.js"
+    ],
+    "/(trelloboards)/organizations/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/organizations/layout.js"
+    ],
+    "/(trelloboards)/organizations/[organizationId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/organizations/[organizationId]/page.js"
+    ],
+    "/(trelloboards)/board/[boardId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/board/[boardId]/page.js"
+    ],
+    "/(trelloboards)/board/[boardId]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(trelloboards)/board/[boardId]/layout.js"
+    ]
+  }
+}
